@@ -1,5 +1,11 @@
 package com.pattern.vistit;
 
+/**
+ * @ClassName: FullTimeEmployee
+ * @Description: 数据类型
+ * @author: yhl
+ * @date: 2019年1月18日 下午9:34:49
+ */
 public class FullTimeEmployee implements IEmployee {
 
 	public String Name;
