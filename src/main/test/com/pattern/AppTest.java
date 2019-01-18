@@ -1,4 +1,4 @@
-package com.test.pattern;
+package com.pattern;
 
 public class AppTest {
 

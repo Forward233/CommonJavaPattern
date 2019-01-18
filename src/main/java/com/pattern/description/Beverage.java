@@ -2,7 +2,8 @@ package com.pattern.description;
 
 /**
  * @ClassName: Beverage
- * @Description: 饮料接口 
+ * @Description: 被装饰者接口，定义被装饰者有意义的一些行为
+ * 				  如获取饮料的名字，获取饮料的价格
  * @author: yhl
  * @date: 2019年1月18日 下午8:57:39
  */
