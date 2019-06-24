@@ -16,6 +16,7 @@ public class Client {
         objectStructure.add(new ConcreteElementB());
 
         // 访问者
+
         ConcreteVisitorA concreteVisitorA = new ConcreteVisitorA();
         objectStructure.accept(concreteVisitorA);
 
