@@ -12,10 +12,12 @@ public class ConcreteVisitorA implements Visitor {
     @Override
     public void visit(ConcreteElementA concreteElementA) {
         // 对ConcreteElementA执行操作
+        System.out.println("ConcreteVisitorA------------>ConcreteElementA");
     }
 
     @Override
     public void visit(ConcreteElementB concreteElementB) {
         // 对ConcreteElementB执行操作
+        System.out.println("ConcreteVisitorA------------>ConcreteElementB");
     }
 }
