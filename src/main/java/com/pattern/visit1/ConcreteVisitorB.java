@@ -9,10 +9,11 @@ package com.pattern.visit1;
 public class ConcreteVisitorB implements Visitor {
     @Override
     public void visit(ConcreteElementA concreteElementA) {
+        System.out.println("ConcreteVisitorB------------>ConcreteElementA");
     }
 
     @Override
     public void visit(ConcreteElementB concreteElementB) {
-
+        System.out.println("ConcreteVisitorB------------>ConcreteElementB");
     }
 }
