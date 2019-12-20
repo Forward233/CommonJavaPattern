@@ -12,11 +12,11 @@ public interface Beverage {
 	 * @Description: 获取商品描述
 	 * @return: String
 	 */
-	public String getDescription();
+	String getDescription();
 	/**
 	 * @Description: 获取商品价格
 	 * @return: double
 	 */
-	public double getPrice();
+	double getPrice();
 	
 }

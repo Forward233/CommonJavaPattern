@@ -9,14 +9,14 @@ package com.pattern.description;
  */
 public class Milk extends Decorator {
 
-	private String description = "加了牛奶！";
-	private Beverage beverage = null;
+	private Beverage beverage;
 
 	public Milk(Beverage beverage) {
 		this.beverage = beverage;
 	}
 
 	public String getDescription() {
+		String description = "加了牛奶！";
 		return beverage.getDescription() + "\n" + description;
 	}
 

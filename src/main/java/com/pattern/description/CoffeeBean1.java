@@ -7,12 +7,10 @@ package com.pattern.description;
  * @date: 2019年1月18日 下午9:14:31
  */
 public class CoffeeBean1 implements Beverage{
-	
-	private String description = "选了第一种咖啡豆";
 
 
 	public String getDescription() {
-		return description;
+		return "选了第一种咖啡豆";
 	}
 
 	public double getPrice() {
