@@ -1,13 +1,12 @@
 package com.pattern.command;
 
-import java.io.File;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
 
 /**
  * @ClassName: XMLUtil
@@ -22,7 +21,7 @@ public class XMLUtil {
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();  
             DocumentBuilder builder = dFactory.newDocumentBuilder();  
             Document doc;                             
-            doc = builder.parse(new File("src/main/java/com/pattern/command/config.xml"));   
+            doc = builder.parse(new File("CommonJavaPattern/src/main/java/com/pattern/command/config.xml"));
           
             //获取包含类名的文本节点  
             NodeList nl = doc.getElementsByTagName("className");  

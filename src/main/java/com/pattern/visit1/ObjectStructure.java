@@ -1,8 +1,5 @@
 package com.pattern.visit1;
 
-import com.pattern.visit2.Company;
-import com.pattern.visit2.Material;
-
 import java.util.ArrayList;
 import java.util.List;
 
