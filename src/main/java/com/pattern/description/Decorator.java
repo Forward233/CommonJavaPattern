@@ -8,11 +8,13 @@ package com.pattern.description;
  */
 public class Decorator implements Beverage{
 
-	public String getDescription() {
+	@Override
+    public String getDescription() {
 		return "我只是装饰器，不知道具体的描述";
 
 	}
 
+	@Override
 	public double getPrice() {
 		return 0;	
 	}

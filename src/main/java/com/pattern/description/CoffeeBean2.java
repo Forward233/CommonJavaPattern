@@ -8,10 +8,12 @@ package com.pattern.description;
  */
 public class CoffeeBean2 implements Beverage {
 
-	public String getDescription() {
+	@Override
+    public String getDescription() {
 		return "选了第二种咖啡豆";
 	}
 
+	@Override
 	public double getPrice() {
 		return 100f;
 	}

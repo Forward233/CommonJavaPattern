@@ -12,10 +12,12 @@ public class Soy extends Decorator{
 	public Soy(Beverage beverage){
 		this.beverage = beverage;
 	}
-	public String getDescription(){
+	@Override
+    public String getDescription(){
 		String description = "加了豆浆！";
 		return beverage.getDescription()+"\n"+ description;
 	}
+	@Override
 	public double getPrice(){
 		return beverage.getPrice()+30;	//30表示豆浆的价格
 	}

@@ -13,11 +13,13 @@ public class Mocha extends Decorator {
 		this.beverage = beverage;
 	}
 
-	public String getDescription() {
+	@Override
+    public String getDescription() {
 		String description = "加了摩卡！";
 		return beverage.getDescription() + "\n" + description;
 	}
 
+	@Override
 	public double getPrice() {
 		return beverage.getPrice() + 49; // 49表示摩卡的价格
 	}

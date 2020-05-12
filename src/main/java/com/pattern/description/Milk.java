@@ -15,11 +15,13 @@ public class Milk extends Decorator {
 		this.beverage = beverage;
 	}
 
-	public String getDescription() {
+	@Override
+    public String getDescription() {
 		String description = "加了牛奶！";
 		return beverage.getDescription() + "\n" + description;
 	}
 
+	@Override
 	public double getPrice() {
 		return beverage.getPrice() + 20; // 20表示牛奶的价格
 	}
