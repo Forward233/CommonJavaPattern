@@ -7,7 +7,7 @@ package com.pattern.description;
  * @author: yhl
  * @date: 2019年1月18日 下午9:17:24
  */
-public class Soy extends Decorator{
+public class Soy implements Beverage{
 	private Beverage beverage;
 	public Soy(Beverage beverage){
 		this.beverage = beverage;

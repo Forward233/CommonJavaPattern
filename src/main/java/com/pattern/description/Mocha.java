@@ -6,7 +6,7 @@ package com.pattern.description;
  * @author: yhl
  * @date: 2019年1月18日 下午9:17:18
  */
-public class Mocha extends Decorator {
+public class Mocha implements Beverage {
 	private Beverage beverage;
 
 	public Mocha(Beverage beverage) {

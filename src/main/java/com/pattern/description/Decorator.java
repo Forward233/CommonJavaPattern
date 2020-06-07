@@ -11,7 +11,6 @@ public class Decorator implements Beverage{
 	@Override
     public String getDescription() {
 		return "我只是装饰器，不知道具体的描述";
-
 	}
 
 	@Override
