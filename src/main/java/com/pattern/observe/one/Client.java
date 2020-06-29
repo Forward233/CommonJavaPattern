@@ -1,4 +1,4 @@
-package com.pattern.observe;
+package com.pattern.observe.one;
 
 /**
  * @author: yhl
@@ -18,6 +18,6 @@ public class Client {
         cxk.notifyFan("说：我会唱 跳 rap");
         System.out.println("--------------------------");
         cxk.delFan(fanB);
-        cxk.notifyFan("说：级你太美");
+        cxk.notifyFan("说：鸡你太美");
     }
 }

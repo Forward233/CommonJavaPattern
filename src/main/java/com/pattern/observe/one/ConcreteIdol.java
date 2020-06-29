@@ -1,4 +1,4 @@
-package com.pattern.observe;
+package com.pattern.observe.one;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * @author: yhl
  * @DateTime: 2020/6/28 22:55
- * @Description:
+ * @Description: 主题实现类
  */
 public class ConcreteIdol implements Idol {
 

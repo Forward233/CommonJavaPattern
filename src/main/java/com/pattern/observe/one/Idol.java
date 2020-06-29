@@ -1,4 +1,4 @@
-package com.pattern.observe;
+package com.pattern.observe.one;
 
 /**
  * @author: yhl
