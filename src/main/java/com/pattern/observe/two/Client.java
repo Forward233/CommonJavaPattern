@@ -27,7 +27,10 @@ public class Client {
         eventMulticaster.multicastEvent(new ContextStartEvent());
         // 发射容器正在运行事件ContextRunningEvent
         eventMulticaster.multicastEvent(new ContextRunningEvent());
-        // 发射容器正在运行事件ContextDestroyEvent
+        // 发射容器销毁事件ContextDestroyEvent
         eventMulticaster.multicastEvent(new ContextDestroyEvent());
+
+
+        // 时间监听器只监听对应的事件
     }
 }

@@ -1,6 +1,6 @@
 package com.pattern.observe.two.listener;
 
-import com.pattern.observe.two.event.AbstractContextEvent;
+import com.pattern.observe.two.event.ContextStartEvent;
 import com.pattern.observe.two.event.Event;
 
 /**
@@ -12,9 +12,8 @@ public class ContextStartEventListener implements ContextListener<Event> {
 
     @Override
     public void onApplicationEvent(Event event) {
-        if (event != null) {
-            AbstractContextEvent abstractContextEvent = (AbstractContextEvent) event;
-            System.out.println("容器启动----------------->启动时间为：" + abstractContextEvent.getTimestamp());
+        if (event instanceof ContextStartEvent) {
+            System.out.println("容器启动----------------->启动时间为：" + ((ContextStartEvent) event).getTimestamp());
         }
     }
 }

@@ -22,7 +22,7 @@ public class SimpleApplicationEventMulticaster implements ApplicationEventMultic
     private final Set<ContextListener<Event>> contextListeners = new HashSet<>();
 
     private final Executor executor = new ThreadPoolExecutor(
-            5, 5, 0, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
+            5, 5, 0, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
     public void setAsync(boolean async) {
         this.async = async;
