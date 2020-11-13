@@ -1,5 +1,7 @@
 package com.pattern.factroy.fact;
 
+import java.lang.management.ManagementFactory;
+
 /**
  * @author yhl
  * @Title: Test
@@ -8,11 +10,13 @@ package com.pattern.factroy.fact;
  */
 public class Test {
     public static void main(String[] args) {
-        Factory a = new FactoryA();
-        a.createProduct();
-        Factory b = new FactoryB();
-        b.createProduct();
+//        Factory a = new FactoryA();
+//        a.createProduct();
+//        Factory b = new FactoryB();
+//        b.createProduct();
 
+        String name = ManagementFactory.getRuntimeMXBean().getName();
+        System.out.println(name);
     }
 
 }
