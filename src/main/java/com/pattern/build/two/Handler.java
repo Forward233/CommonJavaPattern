@@ -1,5 +1,6 @@
 package com.pattern.build.two;
 
+
 import com.pattern.chain.one.Member;
 
 /**
