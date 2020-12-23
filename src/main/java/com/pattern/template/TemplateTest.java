@@ -7,7 +7,7 @@ package com.pattern.template;
  */
 public class TemplateTest {
     public static void main(String[] args) {
-        final TemplatePatternImpl templatePattern = new TemplatePatternImpl();
+        final TemplatePattern templatePattern = new TemplatePatternImpl();
         templatePattern.templateMethod();
     }
 }
