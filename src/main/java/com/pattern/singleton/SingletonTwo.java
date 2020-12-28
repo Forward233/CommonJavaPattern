@@ -9,12 +9,12 @@ package com.pattern.singleton;
  * @date: 2019年1月22日 上午9:55:31
  */
 public class SingletonTwo {
-	private static SingletonTwo INSTANCE;
+	private static volatile SingletonTwo INSTANCE;
 	
 	private SingletonTwo() {
 	}
 
-	public SingletonTwo getSingleTonTwo() {
+	public static SingletonTwo getSingleTonTwo() {
 		if(INSTANCE == null) {
 			synchronized (SingletonTwo.class) {
 				if(INSTANCE == null) {

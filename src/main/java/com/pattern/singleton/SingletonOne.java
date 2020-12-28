@@ -15,7 +15,7 @@ public class SingletonOne {
 	private SingletonOne() {
 	}
 	
-	private static SingletonOne getSingletonOne() {
+	public static SingletonOne getSingletonOne() {
 		return INSTANCE;
 	}
 
