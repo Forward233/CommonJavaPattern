@@ -5,6 +5,6 @@ import com.pattern.factroy.simple.Product;
 
 public interface Factory {
 
-    public Product createProduct();
+    Product createProduct();
 
 }
