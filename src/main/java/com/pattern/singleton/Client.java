@@ -14,5 +14,8 @@ public class Client {
         System.out.println(singletonOneA);
         System.out.println(singletonOneB);
 
+        SingletonEnum singletonEnumA = SingletonEnum.getSingletonEnum();
+        SingletonEnum singletonEnumB = SingletonEnum.getSingletonEnum();
+        System.out.println(singletonOneA == singletonOneB);
     }
 }
